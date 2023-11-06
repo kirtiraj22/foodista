@@ -6,6 +6,7 @@ import App from './App.jsx';
 import Body from './components/Body.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
+import Cart from './pages/Cart.jsx';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact />
+            },
+            {
+                path: '/cart',
+                element: <Cart />
             }
         ]
     }
